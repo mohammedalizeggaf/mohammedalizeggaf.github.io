@@ -1574,6 +1574,49 @@ a.contact-box__item:hover {
     margin-top: 0;
 }
 
+/* Services */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    gap: 16px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px;
+    border: 1px solid var(--gray);
+}
+
+.service:hover {
+    border-color: var(--primary);
+}
+
+.service__number {
+    color: var(--primary);
+    font-size: 14px;
+}
+
+.service__title {
+    margin-top: -8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.service__tech {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid rgba(171, 178, 191, 0.35);
+    font-size: 14px;
+    word-spacing: 6px;
+}
+
+.cta--close {
+    margin-top: 24px;
+}
+
 /* Large outlined word behind a section. It slides sideways while scrolling (see app.js). */
 
 .has-ghost {
