@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hfid-mokhtare.github.io/sitemap.xml
